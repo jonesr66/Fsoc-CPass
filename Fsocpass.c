@@ -4,7 +4,7 @@ void main()
 
 {
 
-char pass
+char pass;
 
 printf("Please enter the passphrase:");
 scanf("%d", &pass);
