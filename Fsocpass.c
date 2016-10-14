@@ -13,6 +13,6 @@ if (pass == "bluesky") {
 	printf("secret message!");
 }
 else if (pass != "bluesky") {
-	printf ("Wrong passphrase")
+	printf ("Wrong passphrase");
 }
 }
