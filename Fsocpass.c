@@ -15,4 +15,5 @@ if (pass == "bluesky") {
 else if (pass != "bluesky") {
 	printf ("Wrong passphrase");
 }
+return 0;
 }
