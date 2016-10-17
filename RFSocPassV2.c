@@ -3,19 +3,19 @@
 int main()
 
 {
-char user, pass;
+char user[10], pass[10];
 
 printf("Please enter username:\n");
-scanf("%s", &user );
+scanf("%s", user );
 
 printf("Please enter the passphrase:\n");
-scanf("%s", &pass );
+scanf("%s", pass );
 
-if ((user == "admin") && (pass == "bluesky")) {
-printf ("secret message!\n");
+if (user == "admin" && pass == "bluesky") {
+	printf ("secret message!\n");
 }
-
 else { 
-printf ("Wrong passphrase.\n");
+	printf ("Wrong passphrase.\n");
 }
+return 0;
 }
