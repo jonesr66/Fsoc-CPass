@@ -1,0 +1,25 @@
+
+#include <stdio.h> /*import library*/
+
+int main()
+
+{
+char user[10], pass[10]; /*declaring variables*/
+
+printf("Please enter username:\n"); /*Print to console*/
+scanf("%s", user );/*user input*/
+
+printf("Please enter the passphrase:\n");
+scanf("%s", pass );
+
+if (strcmp(user, "Elliot") == 0) {
+	//verify user
+	if (strcmp(pass, "B0n5oir") == 0) 
+		//verify pass
+		printf ("LEAVE ME HERE\n");
+}		//if correct print?
+else { 
+	printf ("That's wrong.\n");
+}	//else if wrong, print wrong...
+return 0;
+}
