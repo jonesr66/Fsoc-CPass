@@ -4,7 +4,9 @@
 int main()
 
 {
-char user[10], pass[10]; /*declaring variables*/
+char user[10], pass[10]; /*declaring variables user and pass,
+"char" is for one character, where [10] is an array of 10 variables
+of the type char??*/
 
 printf("Please enter username:\n"); /*Print to console*/
 scanf("%s", user );/*user input*/
